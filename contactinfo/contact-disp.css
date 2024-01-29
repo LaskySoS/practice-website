@@ -82,10 +82,10 @@
 
 
 .about-us-detail{
-    /*
+    
     border-width: 2px;
     border-style: solid;
-    border-color: yellow;*/
+    border-color: yellow;
     margin-top: 1vh;
 
    
@@ -105,9 +105,12 @@
 }
 
 .contact-info{
-    width: 50vw;
+    width: 60vw;
     height: 50vh;
     padding-left: 1vw;
+    
+    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
 /*
     border-width: 2px;
     border-style: solid;
@@ -133,13 +136,6 @@
     margin-bottom: 3vh;
 
 }
-.contact-info{
-
-    font-family: 'Playpen Sans', cursive;
-    font-size: 20px;
-}
-
-
 
 .ig-link-area{
 
@@ -160,14 +156,14 @@
     .about-us-area,.contact-area{    
         flex-direction: column;
         padding-top: 2vh;
+      
     
     }
+    .about-us-area{
+        height: 70vh;
+    }
     .about-us-pic{
-        /*
-        border-width: 2px;
-        border-style: solid;
-        border-color: red;
-        */
+
         height: 27vh;
         object-position: top;
         object-fit: contain;
@@ -180,13 +176,25 @@
     .about-us-detail{
         font-size: 15px;
         padding: 5px 5px;
+        
     }
     .contact-area{
-        height: 30vh;
+        border-width: 2px;
+        border-style: solid;
+        border-color: red;
+        
+        height: 50vh;
     }
 
     .contact-pic{
         display: none;
+    }
+
+    .phone-num,.e-mail{
+        border-width: 2px;
+        border-style: solid;
+        border-color: red;
+        font-size: 18px;
     }
 }
 @media screen and (min-width:768px) and (max-width:991px){

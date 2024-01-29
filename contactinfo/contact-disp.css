@@ -83,20 +83,10 @@
 
 .about-us-detail{
     
-    border-width: 2px;
-    border-style: solid;
-    border-color: yellow;
     margin-top: 1vh;
-
-   
     padding: 10px 20px;
-
-
     font-size: 20px;
     color: rgb(33, 30, 30);
-
-
-
 }
 
 .contact-area{
@@ -107,8 +97,7 @@
 .contact-info{
     width: 60vw;
     height: 50vh;
-    padding-left: 1vw;
-    
+    padding-left: 1vw;    
     font-family: 'Playpen Sans', cursive;
     font-size: 20px;
 /*
@@ -156,8 +145,7 @@
     .about-us-area,.contact-area{    
         flex-direction: column;
         padding-top: 2vh;
-      
-    
+          
     }
     .about-us-area{
         height: 70vh;
@@ -179,9 +167,6 @@
         
     }
     .contact-area{
-        border-width: 2px;
-        border-style: solid;
-        border-color: red;
         
         height: 50vh;
     }
@@ -191,9 +176,7 @@
     }
 
     .phone-num,.e-mail{
-        border-width: 2px;
-        border-style: solid;
-        border-color: red;
+
         font-size: 18px;
     }
 }
@@ -204,12 +187,8 @@
         height: 50vh;
     
     }
-    .about-us-pic{
-        
- 
-        
+    .about-us-pic{       
         height: 27vh;
-
         object-fit: fill;
     }
     .about-us-title{
